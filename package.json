@@ -1,0 +1,46 @@
+{
+  "name": "boxup-cli",
+  "version": "0.0.0",
+  "description": "Create boxes in the terminal",
+  "main": "index.js",
+  "bin": {
+    "boxup": "./bin/cli.js"
+  },
+  "scripts": {
+    "lint": "jshint index.js",
+    "pretest": "npm run lint",
+    "test": "echo \"Error: no test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bubkoo/boxup-cli.git"
+  },
+  "keywords": [
+    "boxes",
+    "boxup",
+    "text",
+    "border",
+    "unicode",
+    "ascii",
+    "console",
+    "term",
+    "terminal",
+    "boxes",
+    "box",
+    "cli",
+    "cli-app"
+  ],
+  "author": "bubkoo <bubkoo@163.com> (https://github.com/bubkoo)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bubkoo/boxup-cli/issues"
+  },
+  "homepage": "https://github.com/bubkoo/boxup-cli#readme",
+  "devDependencies": {
+    "jshint": "^2.9.1"
+  },
+  "dependencies": {
+    "boxup": "^0.1.0",
+    "minimist": "^1.2.0"
+  }
+}

@@ -1,0 +1,14 @@
+
+  The width of the box, include padding and borders.
+
+  type   : `Number`, `Percentage`
+  default: "auto"
+
+  1. width is a percentage string, the width is
+     relative to the terminal's width.
+  2. width is a number, it's a absolute width.
+  3. any other invalid values will be treat as "auto".
+
+  Note: if the width is greater than tha terminal's max width,
+  then we will take terminal's max width as the box width.
+

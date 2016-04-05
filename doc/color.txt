@@ -1,0 +1,21 @@
+
+  color names for border-color:
+  - black
+  - red
+  - green
+  - yellow
+  - blue
+  - magenta
+  - cyan
+  - white
+  - gray
+
+  color names for bg-color:
+  - black
+  - red
+  - green
+  - yellow
+  - blue
+  - magenta
+  - cyan
+  - white

@@ -1,0 +1,32 @@
+
+  presets:
+
+  - single
+    ┌───┐
+    │foo│
+    └───┘
+
+  - double
+    ╔═══╗
+    ║foo║
+    ╚═══╝
+
+  - round
+    ╭───╮
+    │foo│
+    ╰───╯
+
+  - single-double
+    ╓───╖
+    ║foo║
+    ╙───╜
+
+  - double-single
+    ╒═══╕
+    │foo│
+    ╘═══╛
+
+  - classic
+    +---+
+    |foo|
+    +---+
