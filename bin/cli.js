@@ -37,12 +37,12 @@ var argv = require('minimist')(process.argv.slice(2), {
     d: false
   },
   unknown: function () {
-    return false;
+    //return false;
   }
 });
 
 
-//console.log(argv);
+console.log(argv);
 
 if (argv.help) {
   return actions.help(argv.help);

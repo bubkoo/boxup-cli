@@ -27,6 +27,25 @@ exports.version = function () {
 
 exports.render = function (argv) {
 
+  var options = {};
+
+  [
+    'width',
+    'textAlign',
+    'boxAlign',
+    'borderStyle',
+    'borderColor',
+    'backgroundColor',
+    'dimBorder',
+    'margin',
+    'padding'
+  ].forEach(function (key) {
+    if (key in argv) {
+      options[key] = argv[key];
+    }
+  });
+
+  console.log(boxup(argv._.join('\n'), options));
 };
 
 
