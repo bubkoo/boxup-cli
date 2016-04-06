@@ -48,5 +48,5 @@ $npm install --save boxup-cli
 
 ## Related
 
-- [boxup](https://github.com/bubkoo/boxup) - Wrap content with a box in the terminal
-- [boxup-preset](https://github.com/bubkoo/boxup-preset) - Border style presets for [boxup](https://github.com/bubkoo/boxup)
+- [boxup](https://github.com/bubkoo/boxup) - wrap content with a box in the terminal
+- [boxup-preset](https://github.com/bubkoo/boxup-preset) - border style presets for [boxup](https://github.com/bubkoo/boxup)
