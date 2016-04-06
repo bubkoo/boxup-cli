@@ -1,6 +1,0 @@
-
-  1. text-align: the alignment of the text
-  2. box-align : the alignment of the box
-
-  Node: both options take "left" as default, and
-  valid values are: "left", "center", "right".

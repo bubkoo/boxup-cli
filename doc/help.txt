@@ -7,30 +7,26 @@
   Options:
 
   -w, --width num/p.c. .............. the width of the box.
-  -a, --text-align align ............ text alignment in the box.
-  -A, --box-align align ............. the alignment of the box.
+  -a, --text-align align ............ text alignment in the box. left|center|right
+  -A, --box-align align ............. the alignment of the box.  left|center|right
   -s, --border-style preset ......... style of the box border.
   -f, --border-color color .......... color of the box border.
   -b, --bg-color color .............. color of the background.
-  -m, --margin ...................... the white space around the box.
+  -m, --margin ...................... set the white space around the box.
   -p, --padding ..................... space between the text and box border.
   -d, --dim-border .................. reduce opacity of the border.
   -h, --help ........................ you're looking at it.
   -h, --help <topic> ................ help on a specific feature.
 
-  Topics: width, color, preset, margin, padding, align
-
-  Try "boxup --help color".
+  Topics: width, color, preset, align. Try "boxup --help color".
 
 
   Examples:
 
-  $ boxup
-  $ boxup -Odo ./logo/logo.svg
-  $ boxup --config ./logo/.logorc
-  $ boxup --help
-  $ boxup --help font
-  $ logo --help config
-  $ logo --version
+  $ boxup "I ❤ unicorns"
+  $ boxup -w=50 -a=left "A big box"
+  $ boxup -s=double-single "double-single"
+  $ boxup -m=0 -p=2 "no margin, more padding"
+  $ boxup "line 1" "line 2"
 
   For more details see https://github.com/bubkoo/boxup-cli
